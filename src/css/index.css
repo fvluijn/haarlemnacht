@@ -1,0 +1,70 @@
+html,
+body {
+  background: #222;
+  height:100%;
+  width:100%;
+  color: #fff;
+}
+
+#bg {
+  background: url("../img/bg.jpg") center center no-repeat;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  width:100%;
+  z-index: 1;
+}
+
+#wrapper {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+#wrapper {
+  padding:0 30px 200px 30px;
+}
+
+#wrapper #logo {
+  padding: 10% 0;
+}
+
+#wrapper #introduction {
+  margin:50px 0 75px 0;
+  padding:50px;
+  background: rgba(0,0,0,0.3);
+  font-size: 22px;
+}
+
+#wrapper video {
+  padding:50px 0 0 0;
+}
+
+.avatars .avatar {
+  padding-bottom: 35px;
+}
+
+.avatars .avatar h3 {
+  padding-top:  20px;
+  font-weight:  300;
+}
+
+.avatars .avatar a {
+  color: #fff;
+  font-size: 23px;
+}
+
+footer a {
+  display: block;
+  text-align: center;
+  font-size: 23px;
+  color:#FFF;
+}
+
+footer a:focus,
+footer a:hover,
+footer a:active {
+  color:#FFF;
+  outline:none;
+}
